@@ -1,6 +1,4 @@
 dataMine2Sql
 ============
 
-short extension to the DataMine Plugin
-
-d
+hard-extension to the DataMine Plugin to write and read collected data into a (my)Sql Database for re-use and backup
