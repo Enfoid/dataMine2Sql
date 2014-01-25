@@ -11,25 +11,7 @@ Required things:
 - coffee, 230 Volts
 
 Installation:
-- add database user
-
-- set up database
-
-- checkout the repro to your webserver
-
-- Download from your Vera Controller the file 'L_DataMine1.lua'
-  [ APPS - Develop Apps - Luup Files - L_DataMine1.lua - Download]
-- open file and add the following lines
-
-- somewhere in the configuration section
-local remoteUrl = "http://hostofyourserver/datamine/insert.php?"
-
-- search for "outf:write(json.encode(newEvt)"
-  insert the following line right below
-luup.inet.wget(remoteUrl .. 'json=' .. urlEncode(json.encode(newEvt)) , 5)
-
-- save file nd upload it back to your vera (check Reload)
-
+- https://github.com/nullx8/dataMine2Sql/wiki/Installation
 
 ToDo:
 - autopatch lua files
