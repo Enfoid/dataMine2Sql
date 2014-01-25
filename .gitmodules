@@ -1,0 +1,3 @@
+[submodule "dataMine2Sql.wiki"]
+	path = dataMine2Sql.wiki
+	url = git://github.com/nullx8/dataMine2Sql.wiki
